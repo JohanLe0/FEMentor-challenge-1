@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.recipeBlock{
+    width: 60%;
+    background-color: white;
+    margin: 60px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+hr{
+    margin: 25px 0px;
+    border: 1px solid hsl(30, 18%, 87%);
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    color:hsl(24, 5%, 18%);
+    font-size: 3rem;
+}
+
+h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+    color: hsl(14, 45%, 36%);
+}
+
+h3{
+    color: hsl(332, 51%, 32%);
+    font-size: 1.2rem;
+}
+
+.subHead{
+    margin-bottom: 36px;
+}
+
+ol{
+    font-weight: 700;
+}
+
+ol p{
+    font-weight: 400;
+}
+
+li{
+    margin: 10px 0px;
+    padding-left: 10px;
+}
+
+ul, ol{
+    color:hsl(14, 45%, 36%);
+}
+
+p, dl{
+    color:hsl(30, 10%, 34%)
+}
+
+b{
+    font-weight: 700
+}
+
+dd{
+    margin-left: 0;
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+dt{
+    padding-left: 40px
+}
+
+dl hr{
+    margin: 15px 0px
+}
+
+.omelettePic{
+    border-radius: 10px;
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px 20px
+}
+
+.nutritionLine{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nutritionSubHead{
+    margin-bottom: 36px;
+}
+
+@media (max-width:600px){
+    .recipeBlock{
+        width: 100%;       
+        margin: 0px;        
+        border-radius: 0px;
+    }
+}
